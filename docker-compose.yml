@@ -11,7 +11,7 @@
 
 services:
   code-server:
-    image: smija8k/code-server:latest
+    image: jholtsmith/code-server-node:latest
     container_name: code-server
     environment:
       - DOCKER_USER=${USER}
